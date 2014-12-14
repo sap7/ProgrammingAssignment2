@@ -1,8 +1,7 @@
-## 
 #makeCacheMatrix() stores the cache of a matrix and its inverse 
 #cacheSolve() retrieves the inverse from cache if already computed else computes the inverse for the 1st time
+#Cache the matrix and its inverse and return a list with 3 elements that can be used to access the matrix and inverse
 
-## Cache the matrix and its inverse and return a list with 3 elements that can be used to access the matrix and inverse
 makeCacheMatrix <- function(x = matrix()) {
   mCache <<- x;
   mInv<<-NULL;
